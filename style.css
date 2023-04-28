@@ -1,0 +1,93 @@
+
+:root {
+    --black: #000000;
+    --white: #ffffff;
+    
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+
+body {
+    
+    text-align: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+
+h3 {
+    font-size: 3rem;
+}
+
+.start-button {
+    font-size: 3rem;
+    padding: .5rem 3rem;
+    margin-top: 1rem;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    border: none;
+  }
+
+
+.start-button:hover {
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+}
+
+
+.container {
+    display: flex;
+    gap: 10px;
+    margin-top: 2rem;
+}
+
+.grid {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid div {
+    
+    width: 20px;
+    height: 20px;
+}
+
+
+.tetromino {
+    background-color: blue;
+}
+
+.mini-grid {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #FBAB7E;
+    background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+}
+
+.mini-grid div {
+    height: 20px;
+    width: 20px;
+}
+
